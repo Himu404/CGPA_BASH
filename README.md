@@ -19,7 +19,7 @@ Before running the script, make sure you have the following installed:
    git clone https://github.com/Himu404/CGPA_BASH.git
    cd CGPA_BASH
 
-   ## How It Works
+## How It Works
 
 ### Script Overview
 
@@ -63,9 +63,9 @@ The Excel file (`hack.xlsx`) must have the following structure to be read by the
 
 | Student ID | Date of Birth |
 |------------|---------------|
-| 2233081403 | 2001-01-01    |
-| 2233081404 | 2001-02-01    |
-| 2233081405 | 2001-03-01    |
+| 2233083547 | 2001-01-01    |
+| 2233081548 | 2001-02-01    |
+| 2233081464 | 2001-03-01    |
 | ...        | ...           |
 
 - **Student ID**: This column should contain the unique ID for each student.
@@ -77,9 +77,9 @@ After running the script, the Excel file will be updated with an additional colu
 
 | Student ID | Date of Birth | CGPA   |
 |------------|---------------|--------|
-| 2233081403 | 2001-01-01    | 3.11   |
-| 2233081404 | 2001-02-01    | 3.45   |
-| 2233081405 | 2001-03-01    | 2.98   |
+| 2233083547 | 2001-01-01    | 3.11   |
+| 2233081548 | 2001-02-01    | 3.45   |
+| 2233081464 | 2001-03-01    | 2.98   |
 | ...        | ...           | ...    |
 
 - **CGPA**: The script will populate this column with the student's CGPA retrieved from the online portal.
